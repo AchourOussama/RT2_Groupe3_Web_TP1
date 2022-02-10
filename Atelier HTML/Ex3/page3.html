@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page3</title>
+</head>
+<body align="center">
+<h1>Inscription en Harvard Business school</h1>
+<form action="Page Media.html">
+    <fieldset>
+        <legend>Informations personnelles</legend>
+        <label for="nom">Votre nom?<input type="text" name="nom" placeholder="Votre nom" maxlength="30"></label><br><br>
+        <label for="prenom">Votre prenom?<input type="text" name="prenom" placeholder="Votre prenom"  maxlength="30"></label><br><br>
+        <label for="age">Votre age?<input required type="number" name="age" placeholder="Votre age"></label><br><br>
+        <label for="date">Votre date de naissance :</label><input type="date" name="date" id="date" ><br><br>
+        <label for="adresse">Votre adresse?<input type="text" name="adresse"  placeholder="Votre adresse"></label><br><br>
+        <label for="mail">Votre adresse email </label> <input type="email" name="mail" placeholder="http://www.exemple.com" > <br><br>
+        <label for="mdp">Mot de passe <input required type="password" name="mdp" maxlength="30"></label><br><br>
+        <label for="retapez mdp">Retapez votre mot de passe <input required type="password" name="retapez mdp" maxlength="30"></label><br><br>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Gestion des groupe des options</legend>
+        <div>
+            <label for="Groupe">Votre Groupe:</label>
+            <input type="radio" name="Groupe" id="Groupe1" value="Groupe1">Groupe1
+            <input type="radio" name="Groupe" id="Groupe2" value="Groupe2">Groupe2
+            <input type="radio" name="Groupe" id="Groupe3" value="Groupe3">Groupe3 
+
+        </div> <br><br>
+            
+        <label for="numinscri">Numero de carte d'étudiant:</label><input type="text" name="numinscri" placeholder="Numero de carte d'étudiant"><br><br>
+        <div>
+            <label for="option">Choisissez l'option que vous désirez :</label>
+            <select name="option" id="option">
+                <option value="J2ee">J2ee</option>
+                <option value="Android">Android</option>
+                <option value=".Net">Net</option>
+                <option value="HTML">HTML</option>
+                <option value="Flex">Flex</option>
+            </select>
+        </div> <br><br>
+        
+    </fieldset>
+    <input type="submit" value="valider">   <input type="reset" value="réinisialiser">
+
+</form>
+
+    
+</body>
+</html>
